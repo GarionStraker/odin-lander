@@ -204,6 +204,7 @@ ul {
      flex: 1;
      margin: 0;
      background-color: #6d747d;
+     border-radius: 10px;
      /* border: blue 5px solid; */
 }
 
@@ -305,7 +306,7 @@ ul {
     box-sizing: border-box;
     height: 400px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* border: red 5px solid; */
     /* padding: 80px 80px; */
@@ -314,6 +315,7 @@ ul {
 
 .quote .container {
     box-sizing: border-box;
+    width: 700px;
     /* border: lime 5px solid; */
     /* margin: auto; */
 }
@@ -321,10 +323,12 @@ ul {
 .quote .author {
     font-size: xsmall;
     /* border: lime 5px solid; */
+    width: 90%;
     /* width: 900px; */
-    /* margin: auto; */
+    margin: auto;
+    /* padding-right: 20px; */
     box-sizing: border-box;
-    text-align: end;
+    text-align: right;
     font-weight: bold;
 }
 
@@ -380,6 +384,18 @@ ul {
     /* min-width: 800px; */
 }
 
+.action .container {
+    border: #3882F6 5px solid;
+    background-color: #3882F6;
+    width: 100%;
+    border-radius: 10px;
+    height: 120px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .action .action-box {
     /* padding: 30px 20px; */
     border: 1px solid #3882f6;
@@ -391,10 +407,21 @@ ul {
     /* flex: 1; */
 }
 
-.action button {
+/* .action button {
     box-sizing: border-box;
     border: 3px solid #F9FAF8;
     padding: 5px 30px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3883f6;
+} */
+
+.action button {
+    border: white 2px solid;
+    margin-top: 10px;
+    padding: 5px 30px;
+    width: 70px;
+    text-align: center;
     border-radius: 10px;
     color: #F9FAF8;
     background-color: #3883f6;
@@ -402,6 +429,10 @@ ul {
 
 .action a, button {
     text-decoration: none;
+    color: #F9FAF8;
+}
+
+.action-box {
     color: #F9FAF8;
 }
 
